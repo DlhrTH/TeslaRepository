@@ -1,0 +1,473 @@
+:root {
+    --claro: #94CDD6;
+    --oscuro: #1A5B6D;
+}
+body{
+    background-color: rgb(235, 229, 222);
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p.contenedor a{
+    text-decoration: none;
+    color: var(--oscuro) !important;
+}
+
+p.contenedor{
+    margin-left: 1em;
+}
+
+h2{
+    color: var(--oscuro);
+    text-align: center;
+}
+
+section.contenedor p a{
+    text-decoration: none;
+    color: var(--claro);
+}
+
+h3{
+    text-align: center;
+    color: var(--claro);
+}
+
+footer{
+    background-color: var(--oscuro);
+    padding: 1em;
+}
+
+input.aaa{
+    background-color: var(--oscuro);
+    color: white;
+}
+
+
+@media (max-width: 600px){
+
+    body{
+        margin: 0 !important;
+        max-width: 550px !important;
+    }
+
+    div.imagen iframe{
+        display: none;
+    }
+
+    img, iframe{
+        max-width: 100%;
+    }
+
+    nav.anchototal{
+        display: block;
+        background-color: var(--oscuro);
+        max-width: 100%;
+        padding: 0.7em;
+        padding-top: 0.9em;
+    }
+
+    nav.anchototal a{
+        text-decoration: none;
+    }
+
+    nav.anchototal div a.derecha{
+        display: inline-block;
+        color: var(--claro);
+    }
+
+    nav.anchototal img{
+        max-width: 40px;
+        margin: 0.5em;
+        float: left;
+    }
+
+    div.derecha a{
+        margin-bottom: 1em;
+        color: var(--claro);
+        margin-right: 0.4em;
+    }
+
+    div.izquierda a{
+        color: var(--claro);
+        font-size: 1.4em;
+        padding-bottom: 0.2em;
+    }
+
+    div.izquierda {
+        text-align: center;
+    }
+    
+    div.derecha{
+        text-align: center;
+        margin-top: 0.4em;
+    }
+
+    header{
+        text-align: center;
+        color: var(--claro);
+        margin-bottom: 25%;
+    }
+
+    div.M-mitad{
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+    div.L-mitad{
+        min-width: 96%;
+        text-align: center;
+        margin: 2%;
+    }
+
+    h2{
+        margin-top: 3em;
+    }
+
+    div.L-mitad input, textarea, table.anchototal {
+        width: 94%;
+    }
+
+    table.anchototal input{
+        margin-left: 18px;
+    }
+
+    footer div.izquierda a{
+        text-decoration: none;
+        margin-right: 15px ;
+        font-size: 0.8em !important;
+    }
+
+    footer div.izquierda{
+        margin-top: 1em;
+    }
+
+    footer div.derecha a{
+        margin-right: 20px;
+    }
+
+    img.bbb{
+        min-width: 100%;
+    }
+
+    h1.logo2{
+        color: var(--oscuro);
+    }
+
+    div.doss{
+        text-align: left !important;
+    }
+
+    iframe.ocultar2{
+        display: none;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 999px){
+    
+    body{
+        min-width: 100%;
+        margin: 0 !important;
+    }
+
+    div.imagen iframe{
+        display: none;
+    }
+    
+    nav.anchototal{
+        display: block;
+        background-color: var(--oscuro);
+        max-width: 100%;
+        padding: 0.7em;
+        padding-top: 0.8em;
+        text-align: center;
+        padding-bottom: 0.5em;
+        font-size: 1.5em;
+    }
+
+    nav.anchototal a{
+        text-decoration: none;
+    }
+
+    nav.anchototal div a.derecha{
+        display: inline-block;
+        color: var(--claro);
+    }
+
+    nav.anchototal img{
+        max-width: 60px;
+        margin: 0.5em;
+        float: left;
+    }
+
+    div.derecha a{
+        margin-bottom: 1em;
+        color: var(--claro);
+        margin-right: 0.4em;
+    }
+
+    div.derecha{
+        margin-top: 0.8em;
+    }
+
+    div.izquierda a{
+        color: var(--claro);
+        font-size: 1.4em;
+        padding-bottom: 0.2em;
+    }
+
+    img.tamaño, iframe{
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    img.bbb{
+        min-width: 100%;
+        max-width: 100%;
+        margin-top: 0.5em;
+    }
+
+    section.contenedor{
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+
+    header{
+        position: relative;
+        z-index: 2;
+        margin-top: -450px;
+        text-align: center;
+        margin-bottom: 200px;
+        color: var(--claro);
+        font-size: 1.6em;
+    }
+
+    header img{
+        max-width: 250px;
+    }
+
+    div.L-tercio{
+        display: flex;
+        margin-bottom: 1em;
+    }
+
+    div.M-mitad{
+        max-width: 48%;
+        min-width: 48%;
+        margin: 0.5em;
+    }
+
+    h3{
+        margin-top: 0 !important;
+    }
+
+    footer div.izquierda a{
+        text-decoration: none;
+        margin-right: 35px ;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    footer div.derecha a{
+        margin-right: 20px;
+    }
+
+    footer div.derecha {
+        text-align: center;
+        margin: 0.8em;
+    }
+
+    footer div.izquierda{
+        text-align: center;
+    }
+
+    section.contenedor div.L-mitad input, textarea, table{
+        min-width: 90%;
+    }
+
+    section.contenedor div.L-mitad table{
+        margin-left: 5%;
+    }
+
+    section.contenedor div.L-mitad{
+        text-align: center;
+    }
+
+    iframe.ocultar2{
+        display: none;
+    }
+
+    h2{
+        margin-top: 2.5em;
+        margin-bottom: 1em;
+    }
+}
+
+@media (min-width: 1000px){
+
+    body{
+        margin: 0 !important;
+    }
+    
+    div.imagen img{
+        display: none;
+    }
+
+    div.imagen iframe{
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 650px;
+    }
+
+    nav.anchototal{
+        display: block;
+        background-color: var(--oscuro);
+        max-width: 100%;
+        padding: 0.3em;
+        max-height: 65px;
+        min-height: 65px;        
+    }
+
+    nav.anchototal img{
+        max-width: 45px;
+        margin-top: 5px;
+        
+    }
+
+    nav div.contenedor div.izquierda{
+        float: left;
+        margin-left: 40px;
+    }
+
+    nav div.contenedor div.izquierda a{
+        text-decoration: none;
+        font-size: 2em;
+        color: var(--claro);
+    }
+
+    nav div.contenedor div.derecha{
+        float: right;
+        margin-right: 40px;
+        text-align: center;
+        margin-top: 22px;
+    }
+
+    nav div.contenedor div.derecha a{
+        font-size: 1.2em;
+        margin-right: 20px;
+        text-decoration: none;
+        color: var(--claro);
+    }
+
+    p.contenedor{
+        display: none;
+    }
+
+    header{
+        position: relative;
+        z-index: 2;
+        margin-top: -310px;
+        text-align: center;
+        color: var(--claro);
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+
+    header img{
+        max-width: 200px;
+    }
+
+    footer div.derecha{
+        float: right;
+        margin-right: 120px;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: var(--claro);
+        margin: 0.6em;
+    }
+
+    footer div.izquierda{
+        margin-left: 120px;
+    }
+    
+    section#Contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 30px 100px;
+    }
+
+    section#Contact input, textarea{
+        width: 85%;
+    }
+
+    section#Contact table.anchototal{
+        width: 85.8%;
+    }
+
+    div#dos{
+        margin-left: 14%;
+    }
+
+    table.anchototal tr input.anchototal{
+        min-width: 99% !important;
+    }
+
+    input.aaa{
+        width: 15% !important;
+        max-width: 80px;
+        min-height: 30px;
+        color: var(--claro);
+    }
+
+    section#Exhibition{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100% !important;
+        margin-left: 9%;
+        margin-right: 7%;
+    }
+
+    section#Exhibition div.L-tercio{
+        min-width: 90%;
+        max-width: 90%;
+    }
+
+    section#Exhibition img{
+        max-width: 98%;
+    }
+
+    section#Visit{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100% !important;
+        margin-left: 9%;
+        margin-right: 7%;
+    }
+
+    section#Visit div.L-tercio{
+        min-width: 90%;
+        max-width: 90%;
+    }
+
+    section#Visit img{
+        max-width: 98%;
+    }
+
+    h2{
+        margin-top: 2.8em;
+        margin-bottom: 1.5em;
+        font-size: 2em;
+        color: var(--oscuro);
+    }
+
+    img#ocultar{
+        display: none;
+    }
+
+    section#Exhibition iframe {
+        max-width: 98%;
+    }
+
+}
